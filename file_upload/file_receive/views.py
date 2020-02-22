@@ -1,6 +1,5 @@
 from django.http import HttpResponse 
 from django.shortcuts import render, redirect 
-from .forms import *
 
 def Form(request):
     return render(request, "file_receive/form.html", {})
